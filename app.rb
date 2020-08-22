@@ -1,4 +1,9 @@
 require_relative 'config/environment'
 
-class App < Sinatra::Base
+class CreateDogs < ActiveRecord::Migration[5.2]
+  def up
+  end
+ 
+  def down
+  end
 end

@@ -1,3 +1,5 @@
-require './config/environment'
+  
+require_relative 'config/environment'
 
-run App
+class App < Sinatra::Base
+end
